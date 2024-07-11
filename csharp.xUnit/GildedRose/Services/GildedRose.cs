@@ -20,8 +20,6 @@ public class GildedRose : IGildedRose
     {
         for (var i = 0; i < Items.Count; i++)
         {
-            var condition1 = Items[i].Name != NameConst.Aged_Brie && Items[i].Name != NameConst.Backstage_passesses_to_a_TAFKAL80ETC_concert;
-
             if (Items[i].IsNotAgedBrieAndBackstagePassessesToATAFKAL80ETCConcert())
             {
                 if (Items[i].IsQualiteMoreThanZero())
